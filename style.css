@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1A2036;
+}
+
+svg {
+    width: 100%;
+}
+
+.container {
+    width: 975px;
+    min-height: 662px;
+    background: #252B42;
+    border-radius: 25px;
+    margin-top: 30px;
+    padding: 35px;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.flex .left {
+    width: 88px;
+    height: 592px;
+    background: #1A2036;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex .left .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right .container1 {
+    margin: 40px 0;
+}
+
+.right .container1 .flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .container1 .flex1 .group .text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right .container1 .flex1 .group1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 96px;
+    height: 52px;
+    border: 1px solid #1A2036;
+    padding-right: 10px;
+    border-radius: 6px;
+
+}
+
+.right .container1 .flex1 .group .text h1 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #B1B9D8;
+}
+
+.right .container1 .flex1 .group1 .body-bg {
+    background-color: #1A2036;
+    height: 52px;
+    width: 52px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.right .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+    row-gap: 20px;
+}
+
+.right .grid .card {
+    width: 173px;
+    height: 208px;
+    background-color: #1A2036;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+}
+
+.right .card .card-img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.right .card .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.right .card .title h2 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    padding: 6px 0;
+    color: #B1B9D8;
+}
+
+.right .card .title p {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #B1B9D8;
+}
+
+.right .container1 .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .container1 .form input {
+    background-color: #1A2036;
+    outline: none;
+    border: 0;
+    margin: 8px 0;
+    padding: 8px 10px;
+    color: #B1B9D8;
+    font-weight: 600;
+}
+
+.right .container1 .form .btn {
+    cursor: pointer;
+    border: 0;
+    background-color: #1A2036;
+    color: #B1B9D8;
+    font-weight: bold;
+    padding: 8px 20px;
+}
