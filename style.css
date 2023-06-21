@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav input {
+    outline: none;
+    width: 250px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.fav-recipe-container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(162, 214, 221);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    padding: 16px 80px;
+}
+
+.fav-recipe {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+}
+
+.single .top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.img-container {
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    margin: 8px 0;
+}
+
+.text p {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.recipes-container {
+    padding: 16px 80px;
+}
+
+.recipe {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.recipe-card {
+    width: 400px;
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.recipe-img-container {
+    width: 100%;
+    height: 230px;
+    cursor: pointer;
+}
+
+.recipe-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recipe-name {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.recipe-name p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.recipe-name i{
+    font-size: 20px;
+    color: yellow;
+}
+
+@media(max-width:800px){
+    .recipes-container {
+        padding: 16px 20px;
+    }
+}
